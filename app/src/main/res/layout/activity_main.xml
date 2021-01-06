@@ -76,7 +76,8 @@
             android:layout_height="wrap_content"
             android:text="משוב"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:visibility="gone"/>
 
         <Spinner
             android:id="@+id/price"
