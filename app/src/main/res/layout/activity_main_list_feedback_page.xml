@@ -33,7 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="3dp"
-            android:text="ציון כללי: 9"
+            android:text="ציון כללי:  לא נתנו משובים עדיין"
             android:textColor="#121111"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="@+id/pageMainFeedbackList"
