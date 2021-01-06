@@ -72,7 +72,7 @@
             android:layout_marginTop="30dp"
             android:layout_marginEnd="12dp"
 
-            android:text="תקנון:אני מתחייב לעשות ולא להרוס ולא להציק ולא ךפגוע ולא לשקר"
+            android:text="תקנון:אני מצהיר שכל מה שכתבתי הינו אמיתי ואני רציני בנוגע לשימוש האפליקציה"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="@+id/guideline"

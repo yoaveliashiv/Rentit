@@ -558,6 +558,11 @@ public class MainActivityRegisterCar extends AppCompatActivity {
         if (!flag && flag2) flag = true;
         cardCar.setInsurance(edit);
 
+        edit = editTextRemarks.getText().toString();
+        flag2 = ErrWarn.errRemarker(edit, editTextRemarks);
+        if (!flag && flag2) flag = true;
+        cardCar.setRemarks(edit);
+
         edit = editTextPhone.getText().toString();
         flag2 = ErrWarn.errPhone(edit, editTextPhone);
         if (!flag && flag2) flag = true;

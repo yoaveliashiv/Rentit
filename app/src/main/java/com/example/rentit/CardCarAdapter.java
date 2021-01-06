@@ -78,7 +78,6 @@ public class CardCarAdapter extends ArrayAdapter<CardCar> {
         TextView area = (TextView) view.findViewById(R.id.areaListCard);
         TextView date = (TextView) view.findViewById(R.id.dateListCard);
         TextView insurance = (TextView) view.findViewById(R.id.insuranceListCard);
-        TextView remark = (TextView) view.findViewById(R.id.remarksListCard);
         TextView typeCar = (TextView) view.findViewById(R.id.typeCarListCard);
         TextView seeMe = (TextView) view.findViewById(R.id.textViewSeeMe);
         ImageView imageSee = (ImageView) view.findViewById(R.id.imageViewSee);
@@ -100,9 +99,7 @@ if(flagSee){
         area.setText("אזור " + temp.getArea() + ": " + temp.getCity());
         date.setText("מה-" + temp.getDateStart() + " עד ה-" + temp.getDateEnd());
         insurance.setText("ביטוח: " + temp.getInsurance());
-        if (!temp.getRemarks().equals(""))
-            remark.setText("הערות: " + temp.getRemarks());
-        else remark.setText("");
+
         typeCar.setText("סוג רכב: " + temp.getTypeCar());
 
         return view;
